@@ -283,7 +283,7 @@ public class Menu extends javax.swing.JFrame {
         String[] info = new String[5];
         info[0]= ComboBox1.getSelectedItem().toString();
         info[1]= ComboBox2.getSelectedItem().toString();
-        info[2]= txtCant.getText() + "  Hola";
+        info[2]= txtCant.getText();
         info[3]= ComboBox3.getSelectedItem().toString();
         info[4]= txtCalorias.getText();
         
